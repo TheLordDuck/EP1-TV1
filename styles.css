@@ -81,6 +81,21 @@ h1 {
   font-weight: bold;
 }
 
+.topnav a{
+	display: block;
+	padding: 15px;
+	color: black;
+	text-align: center;
+	#border: 2px solid white;
+	margin: 10px;
+	background-color: white;
+	text-decoration:none;
+}
+
+.topnav a:hover{
+	background-color: grey;
+}
+
 /* Cas de Pantalles grans definir opció Grid */
 @media (max-width: 1200px) {
   .container {
