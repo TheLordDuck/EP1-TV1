@@ -12,7 +12,7 @@ body {
 .container2 {
     display: grid;
     grid-template-columns: 2fr 6fr 2fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 0.25fr 8fr 1fr;
   #grid-gap: 10px 20px;
   grid-template-areas: 'header header header'
              'nav main aside'
@@ -20,14 +20,22 @@ body {
   
   }
 
+.logo{
+  float:left;
+  clear:left;
+}
+
 .logo img {
-	width: 56px;
-	height: 56px;
+	width: 64px;
+	height: 64px;
+  margin-bottom: 15px;
 }
 
 .main_video video{
 	width: 100%;
 	height: auto;
+  padding: 3px;
+  outline:unset;
 }
 
 .aside_miniaturas img {
@@ -46,10 +54,19 @@ body {
 	margin-bottom: 10px;
 }
 
+.breadcrumb{
+  padding: 2px 15px !important;
+  background-color: rgba(40,38,38);
+}
+
+ol{
+  padding: 0px !important; 
+  margin: 0px !important;
+}
 header {
   grid-area:header;
-  padding: 30px;
-  text-align: center;
+  padding: 0px !important;
+  #text-align: center;
   font-size: 1.4em;
   background-color: rgba(40,38,38);
   color: white;
@@ -58,7 +75,7 @@ header {
 
 main {
   grid-area:main;
-  #padding: 20px;
+  #padding: 15px;
   background-color: rgba(81,77,77);
   border-bottom: 1px solid grey;
   border-left: 1px solid grey;
@@ -68,7 +85,7 @@ main {
 nav {
   grid-area:nav;	
   background-color: rgba(40,38,38);
-  #padding: 20px;
+  padding: 5px;
 }
  
 aside {
@@ -97,7 +114,7 @@ h1 {
   .container2 {
     display: grid;
     grid-template-columns: 1fr 6fr 2fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 0.25fr 8fr 1fr;
     #grid-gap: 10px 20px;
     grid-template-areas: 
     'header header header'
@@ -115,7 +132,7 @@ h1 {
   .container2 {
     display: grid;
     grid-template-columns: 6fr 2fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 0.25fr 8fr 1fr;
     #grid-gap: 10px 20px;
     grid-template-areas: 
     'header header'
@@ -133,7 +150,7 @@ h1 {
   .container2 {
     display: grid;
     grid-template-columns: 6fr 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 0.25fr 8fr 1fr;
     #grid-gap: 10px 20px;
     grid-template-areas: 
     'header header'
@@ -151,7 +168,7 @@ h1 {
   .container2 {
     display: grid;
     grid-template-columns: 6fr 2fr;
-    grid-template-rows: 0.5fr 4fr 1fr 0.5fr;
+    grid-template-rows: 0.25fr 4fr 1fr 0.5fr;
     #grid-gap: 10px 20px;
     grid-template-areas: 
     'header header'
@@ -170,7 +187,7 @@ h1 {
   .container2 {
     display: grid;
     grid-template-columns: 6fr 2fr;
-    grid-template-rows: 0.5fr 4fr 1fr 0.5fr;
+    grid-template-rows: 0.25fr 4fr 1fr 0.5fr;
     #grid-gap: 10px 20px;
     grid-template-areas: 
     'header header'
