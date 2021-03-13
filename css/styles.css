@@ -48,6 +48,11 @@ body {
   outline:unset;
 }
 
+.main_audio audio{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .main_contenido{
   padding: 15px;
 }
@@ -57,6 +62,36 @@ body {
   padding-top: 20px;
 }
 
+.main_contacte{
+  padding: 15px;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: grey;
+}
+.main_llista{
+  padding: 30px;
+}
+.main_modal_boton button{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 .aside_miniaturas{
   color:white;
   display: block;
