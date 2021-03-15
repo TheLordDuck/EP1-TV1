@@ -5,7 +5,7 @@ css → tinc els arxius de bootstrap, el reset.css, i el meu style.css on aplica
 font → tinc un css amb la font que utilitzo.
 img → tinc totes les imatges utilitzades al projecte.
 js → arxius de javascript.
-media → tinc els vídeos i l’audio de la página web.
+media → tinc eleddswgwegwgws vídeos i l’audio de la página web.
 I en l’arrel tinc tots els html i un arxiu de README.txt que es un document més resumit que aquest.
 
 
