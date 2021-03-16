@@ -66,6 +66,33 @@ body {
   padding: 15px;
 }
 
+.main_ODS-main-photo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.main_ODS-images img{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.main_ODS-images img{
+  padding: 5px;
+  width: 120px;
+  height: auto;
+}
+
+.main_ODS-paragraphs{
+  padding: 50px;
+  text-align: justify;
+}
+
 .map-container{
 overflow:hidden;
 padding-bottom:56.25%;
